@@ -1,0 +1,239 @@
+/*
+ * Globals
+ */
+
+body {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #555;
+  font-weight: 300;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  margin-top: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #333;
+}
+
+h2 {
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 21px;
+  line-height:  1.2em;
+  font-weight: 400;
+  color: #555;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.9em;
+  text-transform: lowercase;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+
+.navbar-default .navbar-brand {
+  color: #555;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-weight: 700;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li.active>a {
+  border-bottom: 3px solid;
+  padding-bottom: 12px;
+}
+
+.navbar-default .navbar-nav>li:first-child>a, .navbar-default .navbar-nav>li:first-child>a:hover, .navbar-default .navbar-nav>li:first-child>a:focus {
+  color: #e74c3c;
+}
+
+.navbar-default .navbar-nav>li:nth-child(2)>a, .navbar-default .navbar-nav>li:nth-child(2)>a:hover, .navbar-default .navbar-nav>li:nth-child(2)>a:focus {
+  color: #2ecc71;
+}
+
+.navbar-default .navbar-nav>li:nth-child(3)>a, .navbar-default .navbar-nav>li:nth-child(3)>a:hover, .navbar-default .navbar-nav>li:nth-child(3)>a:focus {
+  color: #3498db;
+}
+
+.navbar-default .navbar-nav>li:nth-child(4)>a, .navbar-default .navbar-nav>li:nth-child(4)>a:hover, .navbar-default .navbar-nav>li:nth-child(4)>a:focus {
+  color: #f39c12;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #f8f8f8;
+}
+
+/* Blog page */
+#blog-page {
+  padding-top: 30px;
+}
+
+
+/*
+ * Main column and sidebar layout
+ */
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.blog-main img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.blog-sidebar {
+  padding-left: 30px;
+}
+
+/* Sidebar modules for boxing content */
+
+#subscribe-box {
+  padding: 15px 20px;
+  font-size: 15px;
+}
+
+#subscribe-box h4 {
+  font-family: 'Roboto Condensed';
+  font-size: 20px;
+  color: #666;
+  text-align: justify;
+}
+
+#subscribe-box p {
+  line-height: 1.5em;
+  text-rendering: optimizeLegibility;
+}
+
+#subscribe-box .form-group {
+  margin-top: 15px;
+}
+
+#subscribe-box .btn-warning {
+  background-color: #f39c12;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#subscribe-box .btn-warning:hover {
+  background-color: #f0ad4e;
+}
+
+.sidebar-module {
+  padding: 15px;
+  margin: 0 -15px 15px;
+}
+
+.sidebar-module-inset {
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  border: 5px dashed #2ecc71;
+}
+
+.sidebar-module-inset p:last-child,
+.sidebar-module-inset ul:last-child,
+.sidebar-module-inset ol:last-child {
+  margin-bottom: 0;
+}
+
+
+
+/* Pagination */
+.pager {
+  margin-bottom: 60px;
+  text-align: left;
+}
+.pager > li > a {
+  width: 140px;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 20px;
+}
+
+.blog-post-title {
+  margin-bottom: 5px;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.blog-post-title a {
+  color: #555;
+}
+
+.blog-post-title a:hover {
+  color: #2a6496;
+}
+
+.blog-post-meta {
+  margin-bottom: 20px;
+  color: #888;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.blog-post-meta .btn-danger {
+  background-color: #e74c3c;
+  padding: 3px 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.blog-post-meta .btn-danger:hover {
+  background-color: #d2322d;
+}
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Site-wide styling */
+
+.center {
+  text-align: center;
+}
